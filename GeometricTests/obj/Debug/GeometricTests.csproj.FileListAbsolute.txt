@@ -1,0 +1,9 @@
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.dll
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.pdb
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.exe
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.pdb
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.csprojResolveAssemblyReference.cache
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.dll
+c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.pdb
+C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Models\boat.obj
+C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\UnitsNet.net35.dll
