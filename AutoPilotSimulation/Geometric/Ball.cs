@@ -1,5 +1,4 @@
 ﻿using System;
-using UnitsNet;
 
 namespace AutoPilotSimulation.Geometric
 {
@@ -26,6 +25,11 @@ namespace AutoPilotSimulation.Geometric
     public Length Distance(Coordinate coordinate1, Coordinate coordinate2)
     {
       return Distance(coordinate1.Distance(coordinate2));
+    }
+
+    public Angle Arc(Length distance)
+    {
+      return Angle.FullCircle*(distance/Circumference);
     }
   }
 }

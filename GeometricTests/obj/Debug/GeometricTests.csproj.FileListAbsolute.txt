@@ -6,4 +6,3 @@ c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\Geometri
 c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.dll
 c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.pdb
 C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Models\boat.obj
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\UnitsNet.net35.dll

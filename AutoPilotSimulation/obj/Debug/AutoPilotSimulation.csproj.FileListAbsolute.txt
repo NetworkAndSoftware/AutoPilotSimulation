@@ -16,4 +16,4 @@ C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilo
 C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.xml
 C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.lref
 C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Models\boat.obj
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\UnitsNet.net35.dll
+C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Units.pdb

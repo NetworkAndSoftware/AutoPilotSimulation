@@ -1,0 +1,10 @@
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\units_e0ac6acdbb57\Source\Units\bin\PCL\Debug\Units.dll
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\units_e0ac6acdbb57\Source\Units\bin\PCL\Debug\Units.pdb
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\units_e0ac6acdbb57\Source\Units\obj\PCL\Debug\Units.csprojResolveAssemblyReference.cache
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\units_e0ac6acdbb57\Source\Units\obj\PCL\Debug\Units.dll
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\units_e0ac6acdbb57\Source\Units\obj\PCL\Debug\Units.pdb
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\AutoPilotSimulation\Units\obj\PCL\Debug\Units.dll
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\AutoPilotSimulation\Units\obj\PCL\Debug\Units.pdb
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\AutoPilotSimulation\Units\bin\PCL\Debug\Units.dll
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\AutoPilotSimulation\Units\bin\PCL\Debug\Units.pdb
+C:\Users\jmvw\Documents\Visual Studio 2012\Projects\AutoPilotSimulation\Units\obj\PCL\Debug\Units.csprojResolveAssemblyReference.cache

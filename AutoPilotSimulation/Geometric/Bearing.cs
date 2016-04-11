@@ -15,5 +15,10 @@
     {
       return angle%(2*Angle.Pi);
     }
+
+    public static Bearing operator -(Bearing bearing, Angle angle)
+    {
+      return new Bearing((Angle)bearing - angle);
+    }
   }
 }

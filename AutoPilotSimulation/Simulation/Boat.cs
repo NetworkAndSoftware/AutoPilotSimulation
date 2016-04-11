@@ -1,21 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoPilotSimulation.Geometric;
-using UnitsNet;
+﻿using AutoPilotSimulation.Geometric;
 
 namespace AutoPilotSimulation.Simulation
 {
-  class Boat
+  internal class Boat : IFleeting
   {
-    private Coordinate location;
-    private Velocity speed;
+    public Bearing Course;
+    public Coordinate Location;
+    public Angle Rudderposition;
+    public Velocity Speed;
 
-    public Boat()
+    /// <summary>
+    ///   How far the boat travels before it turns by the same amount as the rudder is turned
+    /// </summary>
+    public Length TurningDistance = Length.FromMeters(5);
+
+    public Boat(Coordinate location, Velocity speed, Bearing course, Angle rudderposition)
     {
-      var v = Length.FromMeters(1) / 
+      Location = location;
+      Speed = speed;
+      Course = course;
+      Rudderposition = rudderposition;
+    }
+
+    public void Update(Time elapsedtime)
+    {
+      UpdateLocation(elapsedtime);
+      UpdateCourse(elapsedtime);
+    }
+
+    private void UpdateLocation(Time elapsedtime)
+    {
+      Length distancetravelled = Speed/elapsedtime;
+      var v = new Vector(Course, Ball.EarthSurfaceApproximation.Arc(distancetravelled));
+      Location = Location.GreatCircle(v);
+    }
+
+    private void UpdateCourse(Time elapsedtime)
+    {
+      Course -= Rudderposition*(elapsedtime/(TurningDistance/Speed));
     }
   }
 }
