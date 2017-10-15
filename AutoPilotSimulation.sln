@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPilotSimulation", "AutoPilotSimulation\AutoPilotSimulation.csproj", "{BA7A34A5-7A64-4EAD-B81E-02D5426198BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricTests", "GeometricTests\GeometricTests.csproj", "{0AD1D325-9067-4E46-972E-08003E8F9D5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{C5B7BA90-F19E-4D90-B12E-3A6BDE329DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{127EEB93-11AE-4611-8CB1-F539B180A01F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE. = LICENSE.
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
