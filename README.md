@@ -1,4 +1,4 @@
-This is a basic simulation for a GPS tiller pilot that I'd like to build. 
+This is a basic simulation for a GPS based autopilot that I'd like to build. 
 
 You can drag the yellow waypoint around to make the tiller pilot steer there.
 Click and hold the right mouse button while dragging to move the camera around.
