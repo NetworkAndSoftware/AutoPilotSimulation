@@ -58,6 +58,10 @@
       <Project>{ba7a34a5-7a64-4ead-b81e-02d5426198be}</Project>
       <Name>AutoPilotSimulation</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Geometry\Geometry.csproj">
+      <Project>{c5b7ba90-f19e-4d90-b12e-3a6bde329dc0}</Project>
+      <Name>Geometry</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

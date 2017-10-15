@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="AutoPilotSimulation.UI.InfoBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <StackPanel>
+        <GroupBox>
+            <GroupBox.Header>
+                <TextBlock FontWeight="Bold">Boat</TextBlock>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right">Bearing:</TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">Speed:</TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right">Rudder:</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=BoatBearing}"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=BoatSpeed}"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=BoatRudder}"></TextBlock>
+            </Grid>
+        </GroupBox>
+        <GroupBox >
+            <GroupBox.Header>
+                <TextBlock FontWeight="Bold">Current</TextBlock>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right">Direction:</TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">Speed:</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=CurrentDirection}"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=CurrentSpeed}"></TextBlock>
+            </Grid>
+        </GroupBox>
+        <GroupBox>
+            <GroupBox.Header>
+                <TextBlock FontWeight="Bold">AutoPilot</TextBlock>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">Waypoint Bearing: </TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right">Waypoint Distance: </TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right">Estimated Course: </TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=WaypointBearing}"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=WaypointDistance}"></TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Text="{Binding Path=EstimatedCourse}"></TextBlock>
+            </Grid>
+        </GroupBox>
+        
+        
+  
+    </StackPanel>
+</UserControl>

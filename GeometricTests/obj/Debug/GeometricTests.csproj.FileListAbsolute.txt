@@ -1,8 +1,28 @@
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.dll
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.pdb
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.exe
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.pdb
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.csprojResolveAssemblyReference.cache
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.dll
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.pdb
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Models\boat.obj
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Models\boat.obj
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.csprojResolveAssemblyReference.cache
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Geometry.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\GeometricTests\bin\Debug\Geometry.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\Models\boat.obj
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\GeometricTests.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\Geometry.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\AutoPilotSimulation.exe.config
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\Geometry.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.csprojResolveAssemblyReference.cache
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\GeometricTests\obj\Debug\GeometricTests.pdb

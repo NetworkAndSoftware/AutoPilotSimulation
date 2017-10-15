@@ -1,19 +1,53 @@
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe.config
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.pdb
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csprojResolveAssemblyReference.cache
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\MainWindow.baml
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\MainWindow.g.cs
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\App.g.cs
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.cache
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.g.resources
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.Properties.Resources.resources
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csproj.GenerateResource.Cache
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.exe
-c:\users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.pdb
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.dll
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.pdb
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.xml
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.lref
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Models\boat.obj
-C:\Users\jmvw\documents\visual studio 2012\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Units.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe.config
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Models\boat.obj
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csprojResolveAssemblyReference.cache
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\HelpWindow.baml
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\InfoBox.baml
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\HelpWindow.g.cs
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\InfoBox.g.cs
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\MainWindow.g.cs
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\App.g.cs
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.cache
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.lref
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\MainWindow.baml
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.g.resources
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.Properties.Resources.resources
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csproj.GenerateResource.Cache
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Geometry.dll
+C:\Users\jmvw\Documents\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Geometry.pdb
+C:\Users\jmvw\Google Drive\src\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe.config
+C:\Users\jmvw\Google Drive\src\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Google Drive\src\Visual Studio 2013\Projects\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Models\boat.obj
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe.config
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\AutoPilotSimulation.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Geometry.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\Geometry.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.pdb
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csprojResolveAssemblyReference.cache
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\HelpWindow.baml
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\InfoBox.baml
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\HelpWindow.g.cs
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\InfoBox.g.cs
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\MainWindow.g.cs
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\App.g.cs
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.cache
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation_MarkupCompile.lref
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\UI\MainWindow.baml
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.g.resources
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.Properties.Resources.resources
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.csproj.GenerateResource.Cache
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.exe
+C:\Users\jmvw\Documents\src\AutoPilotSimulation\AutoPilotSimulation\obj\Debug\AutoPilotSimulation.pdb

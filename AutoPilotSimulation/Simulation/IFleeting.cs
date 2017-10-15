@@ -1,9 +1,9 @@
-﻿using AutoPilotSimulation.Geometric;
+﻿using Geometry;
 
 namespace AutoPilotSimulation.Simulation
 {
-  internal interface IFleeting
+  public interface IFleeting
   {
-    void Update(Time elapsedtime);
+    void Age(Time elapsedtime);
   }
 }

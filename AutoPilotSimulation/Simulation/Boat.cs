@@ -1,43 +1,52 @@
-﻿using AutoPilotSimulation.Geometric;
+﻿using System;
+using AutoPilotSimulation.AutoPilot;
+using Geometry;
 
 namespace AutoPilotSimulation.Simulation
 {
-  internal class Boat : IFleeting
+  public class Boat : IFleeting, ITillerable, ILocated, IMoving
   {
-    public Bearing Course;
-    public Coordinate Location;
-    public Angle Rudderposition;
-    public Velocity Speed;
-
-    /// <summary>
-    ///   How far the boat travels before it turns by the same amount as the rudder is turned
-    /// </summary>
+    public Bearing Bearing { get; private set; }
+    public ICompass Compass { get; private set; }
+    public Coordinate Location { get; set; }
+    public IGPS GPS { get; private set; }
+    public IRudder Rudder { get; private set; }
+    public Velocity Speed { get; set; }
+    public AutoPilot.AutoPilot Autopilot { get; private set; }
+    
     public Length TurningDistance = Length.FromMeters(5);
 
-    public Boat(Coordinate location, Velocity speed, Bearing course, Angle rudderposition)
+    public Boat(Coordinate location, Velocity speed, Bearing bearing, Rudder rudder)
     {
       Location = location;
       Speed = speed;
-      Course = course;
-      Rudderposition = rudderposition;
+      Bearing = bearing;
+      Rudder = rudder;
+      GPS = new GPSSimulator();
+      Autopilot = new AutoPilot.AutoPilot(this);
     }
 
-    public void Update(Time elapsedtime)
-    {
+    public void Age(Time elapsedtime)
+    { 
       UpdateLocation(elapsedtime);
-      UpdateCourse(elapsedtime);
+      ((GPSSimulator) GPS).Age(elapsedtime, Location);
+      
+      Autopilot.Update();
+      ((Rudder) Rudder).Update(elapsedtime);
+      UpdateBearing(elapsedtime);
     }
 
     private void UpdateLocation(Time elapsedtime)
     {
-      Length distancetravelled = Speed/elapsedtime;
-      var v = new Vector(Course, Ball.EarthSurfaceApproximation.Arc(distancetravelled));
+      Length distancetravelled = Speed * elapsedtime;
+      var v = new AngularVector(Bearing, Ball.EarthSurfaceApproximation.Arc(distancetravelled));
       Location = Location.GreatCircle(v);
     }
 
-    private void UpdateCourse(Time elapsedtime)
+    private void UpdateBearing(Time elapsedtime)
     {
-      Course -= Rudderposition*(elapsedtime/(TurningDistance/Speed));
+      Bearing -= Rudder.Position*(elapsedtime/(TurningDistance/Speed));
     }
+
   }
 }

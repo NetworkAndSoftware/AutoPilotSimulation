@@ -56,22 +56,44 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Geometric\Angle.cs" />
-    <Compile Include="Geometric\Bearing.cs" />
-    <Compile Include="Geometric\Ball.cs" />
-    <Compile Include="Geometric\Length.cs" />
-    <Compile Include="Geometric\Longitude.cs" />
-    <Compile Include="Geometric\Coordinate.cs" />
-    <Compile Include="Geometric\Latitude.cs" />
-    <Compile Include="Geometric\Time.cs" />
-    <Compile Include="Geometric\Vector.cs" />
-    <Compile Include="Geometric\Velocity.cs" />
+    <Compile Include="AutoPilot\GPSReader.cs" />
+    <Compile Include="AutoPilot\IGPS.cs" />
+    <Compile Include="AutoPilot\GPSReading.cs" />
+    <Compile Include="AutoPilot\ICompass.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Simulation\Compass.cs" />
+    <Compile Include="Simulation\Current.cs" />
+    <Compile Include="Simulation\GPSSimulator.cs" />
+    <Compile Include="Simulation\IMoving.cs" />
+    <Compile Include="UI\Camera.cs" />
+    <Compile Include="UI\DraggableSphere.cs" />
     <Compile Include="Simulation\Boat.cs" />
     <Compile Include="Simulation\IFleeting.cs" />
+    <Compile Include="AutoPilot\ITillerable.cs" />
+    <Compile Include="AutoPilot\IRudder.cs" />
+    <Compile Include="Simulation\ILocated.cs" />
     <Compile Include="Simulation\Mesh.cs" />
+    <Compile Include="AutoPilot\AutoPilot.cs" />
+    <Compile Include="Simulation\Rudder.cs" />
+    <Compile Include="AutoPilot\Waypoint.cs" />
     <Compile Include="Simulation\World.cs" />
     <Compile Include="Thing.cs" />
-    <Page Include="MainWindow.xaml">
+    <Compile Include="UI\HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InfoBox.xaml.cs">
+      <DependentUpon>InfoBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Projections.cs" />
+    <Page Include="UI\HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\InfoBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -79,7 +101,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="UI\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -116,7 +138,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Geometry\Geometry.csproj">
+      <Project>{c5b7ba90-f19e-4d90-b12e-3a6bde329dc0}</Project>
+      <Name>Geometry</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

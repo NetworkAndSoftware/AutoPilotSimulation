@@ -1,0 +1,43 @@
+﻿<Window x:Class="AutoPilotSimulation.UI.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Autopilot Simulation Help" Height="422" Width="452" WindowStyle="ToolWindow" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <DockPanel Grid.Row="0" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" >
+            <RichTextBox HorizontalAlignment="Center" VerticalAlignment="Top" DockPanel.Dock="Top" IsReadOnly="True" BorderThickness="0" VerticalScrollBarVisibility="Auto">
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text="This is a basic simulation for a GPS tiller pilot that I'd like to build. "/>
+                            <LineBreak/>
+                            <Run/>
+                            <LineBreak/>
+                            <Run Text="You can drag the yellow waypoint around to make the tiller pilot steer there."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Click and hold the right mouse button while dragging to move the camera around."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Commands:"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="F1:  Brings up this help page"/>
+                            <LineBreak/>
+                            <Run Text="Alt-1 - Alt-3: Switch cameras"/>
+                            <LineBreak/>
+                            <Run Text="W while left mouse button down: bring waypoint to current mouse location."/>
+                        </Paragraph>
+                    </FlowDocument>
+
+                </RichTextBox>
+            </DockPanel>
+            
+            <Button Content="Dismiss"  Width="64" Height="20"  Grid.Row="1" Padding="1" Margin="0,8" IsCancel="True"/>
+            
+        </Grid>
+    </Grid>
+</Window>
